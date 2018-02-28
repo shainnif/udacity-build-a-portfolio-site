@@ -13,15 +13,17 @@
   </head>
   <body>
    <div class="container">
-     <header>
+     <header class="header" style="height: 20%">
        <div class="row">
          <div class="col">
-           <img class="logo" alt="Logo Image"
+           <img class="img-fluid" alt="Logo Image"
                 src="https://cdn.glitch.com/3b39bd24-a9d2-442f-9799-fe649375de7c%2Fhadoop.jpg?1519472910086">
          </div>
-         <div class="col text-uppercase text-right">
-           <h1>Shaine Ismail</h1>
-           <h4>Front-End Engineer</h4>
+         <div class="col">
+           <div class="title">
+             <h1 class="name-header">Shaine Ismail</h1>
+             <h4 class="title-header">Front-End Engineer</h4>             
+           </div>
          </div>
        </div>
      </header>
@@ -29,7 +31,7 @@
        <div class="col">
          <img class="img-fluid"
               alt="Datacenter image"
-              src="https://cdn.glitch.com/3b39bd24-a9d2-442f-9799-fe649375de7c%2Fdatacenter.jpeg?1519472911198"/>
+              src="https://cdn.glitch.com/3b39bd24-a9d2-442f-9799-fe649375de7c%2Fdatacenter.jpeg?1519472911198">
        </div>
      </section>
      <section class="projects">
@@ -46,7 +48,7 @@
              <div class="card-body">
                <img class="card-img-top"
                     alt="Appify project image"
-                    src="https://cdn.hyperdev.com/drag-in-files.svg?1477153069954"/>
+                    src="https://cdn.hyperdev.com/drag-in-files.svg?1477153069954">
                <h3 class="card-title">appyify</h3>
                <a class="card-link"
                   href="https://github.com/udacity/Appify"
@@ -59,7 +61,7 @@
              <div class="card-body">
                <img class="card-img-top"
                     alt="sunflower project image"
-                    src="https://cdn.hyperdev.com/click-me.svg?1477239469954"/>
+                    src="https://cdn.hyperdev.com/click-me.svg?1477239469954">
                <h3 class="card-title">Sunflower</h3>
                <a class="card-link"
                   href="https://github.com/udacity/sunflower"
@@ -72,7 +74,7 @@
              <div class="card-body">
                <img class="card-img-top"
                     alt="bokeh project image"
-                    src="https://cdn.hyperdev.com/paste-me.svg?1477325869954"/>
+                    src="https://cdn.hyperdev.com/paste-me.svg?1477325869954">
                <h3 class="card-title" >bokeh</h3>
                <a class="card-link"
                   href="https://github.com/udacity/bokeh"
@@ -82,11 +84,13 @@
          </article>
        </div>
       </section>
-     <footer>
-       <hr/>
-       <p>
-         Copyright &copy; 2018 Shaine Ismail
-       </p>
+     <footer class="footer">
+       <hr/> 
+       <div class="row">
+         <div class="col">
+           <p>Copyright &copy; 2018 Shaine Ismail</p>
+         </div>
+      </div>
      </footer>
    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 

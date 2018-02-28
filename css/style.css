@@ -1,24 +1,20 @@
-header {
-  border-bottom : 3px solid #7d97ad;
-  margin: 15px 0 15px 0 ;  
+.header {
+  border-bottom: 3px solid #7d97ad;
+  margin: 15px 0 15px 0;  
+  text-transform: uppercase;
+}
+.title {
+  padding-top: 10%;
+  text-align: right;
 }
 
-header h1,
-header h4 {
-  font-weight: 100;
-}
-
-header h1 {
+.name-header {
   font-size: 40px;
 }
 
-header h4 {
+.title-header {
   font-size: 20px;
   font-weight: bold;
-}
-
-footer {  
-  text-align: center;  
 }
 
 .container {
@@ -28,32 +24,28 @@ footer {
 
 .project-header {
   color: #7d97ad;
-  padding: 20px 0px 5px 10px;
-  
+  padding: 20px 0 5px 10px;
 }
 
-.logo {
-  width:100px;
-  height: 100px;
-  border-radius: 50%;  
-}
-  
 .card{
-  border: 0px;
+  border: 0;
 }
 
 .card-body{
-  padding: 0px;
+  padding: 0;
   text-align: center;
-  
 }
 
 .card-title{
   padding: 10px 0 0 0;
   text-transform: uppercase; 
-  margin: unset
+  margin: unset;
 }
 
 .card-link{
   font-size: 10px;  
+}
+
+.footer {
+    text-align: center; 
 }
